@@ -4,6 +4,8 @@ import tensorflow as tf
 from tensorflow.keras.datasets import imdb
 from tensorflow.keras.preprocessing import sequence
 from tensorflow.keras.models import load_model
+import streamlit as st
+import os
 
 # Load the IMDB dataset word index
 word_index = imdb.get_word_index()
